@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Parrillada con Carrito en L&iacute;nea</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+			<p class="chromeframe">Usted está utilizando <strong>un navegador obsoleto.</strong> Por favor, <a href="http://browsehappy.com/" target="_blank">actualice su navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">active Google Chrome Frame</a> para mejorar su experiencia.</p>
+		<![endif]-->
+
+		<div class="wrapper">
+			<!--<div class="custumerLogo">&nbsp;</div>-->
+			<div class="promotionLogo">&nbsp;</div>
+			<div id="big_arrow">&nbsp;</div>
+			<div class="roulette">
+				<canvas id="wheelcanvas" width="543" height="656"></canvas>
+				<div id="roulette_arrow">&nbsp;</div>
+				<div id="roulette_axis">&nbsp;</div>
+				<div class="hidden">
+					<img src="img/logos/brexas.jpg" id="brexas" alt="brexas" class="provider" style='width=50px;height=50px' />
+					<img src="img/logos/coavi.jpg" id="coavi" alt="coavi" class="provider"  style='width=50px;height=50px' />
+					<img src="img/logos/cucoslogo.jpg" id="cucoslogo" alt="cucoslogo" class="provider"  style='width=50px;height=50px' />
+					<img src="img/logos/la_cabaña.png" id="la_cabaña" alt="la_cabaña" class="provider" style='width=50px;height=50px'  />
+					<img src="img/logos/marcos.jpg" id="marcos" alt="marcos" class="provider"  style='width=50px;height=50px' />
+					<img src="img/logos/latortilla.jpeg" id="latortilla" alt="latortilla" class="provider"  style='width=50px;height=50px' />
+					<img src="img/logos/rinconcito.jpeg" id="rinconcito" alt="rinconcito" class="provider"  style='width=50px;height=50px' />
+					
+				</div>
+			</div>
+
+			<div class="rotateButton ir" onclick="roulette.spin();">Gire aqu&iacute;</div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
+		</script>
+		<script src="js/main.js"></script>		
+	</body>
+</html>
